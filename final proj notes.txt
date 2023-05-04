@@ -1,0 +1,108 @@
+Task To DO:
+Create BQ Tables 
+and Partioned tables 
+and Partioned and Clustered Tables
+From Bucket of 3 types of caps
+
+Challenges:
+data is saved in a path like this
+data/type/year/month/type_*
+
+type can be done in a loop
+
+year/month can be accessed through jinja syntax
+{{ execution_date.strftime(\'%Y-%m\') }}
+FINAL PROJECT THOUGHTS:
+
+FIRST TASK:(DONE)
+___________
+
+-NEW DAG FILE FOR AIRFLOW
+-FIRST TASK WILL BE WGET FROM MY GITHUB ACCOUNT
+-PARQUETIZE IT 
+
+SECOND TASK:(DONE)
+____________
+
+- BASH OPERATOR IN DAG TO GSUTIL ALL THE FILES IN THE BUCKET
+
+THIRD TASK:
+__________
+
+- CREATE EXTERNAL TABLE IN BIG QUERY
+- CREATE INHOUSE TABLE IN BIG QUERY
+- CREATE PARTIITION TABLE IN BIG QUERY
+- CREATE PARTIITION AND CLUSTER TABLE IN BIG QUERY
+
+FOURTH TASK:
+____________
+USE DBT / SPARK (DBT IS PERFERRED)
+
+
+FIFTH TASK:
+___________
+USE LOOKER 
+
+
+LAST TASK:
+___________
+
+DOCUMENT AND READ ME AND GRAPH
+
+
+
+****
+SCHEMA NEEDS TO BE ALTERED 
+
+all files need  to be unified
+all schemae need to be checked
+file 2023 needs to be handeled
+
+drop 4 columns:
+['stats_female_male_ratio',
+ 'stats_number_students',
+ 'stats_pc_intl_students',
+ 'stats_student_staff_ratio']
+
+from 2016 and forward
+all data needs to be cleaned (at least student numbers)
+
+from 2016 and forward
+rank_order should be divided by 10
+
+
+
+
+next step
+core after staging
+
+testing(done)
+document 
+core
+looker
+review tests in dbt
+readme github
+
+142	145
+2	15
+
+dbt build --var 'is_test_run: false'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
