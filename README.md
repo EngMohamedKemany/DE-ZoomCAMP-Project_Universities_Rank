@@ -33,7 +33,8 @@ DBT is used as follows:
      - one for diversity in each university 
      - The other to fix an issue with the ranking starting from 2017
      
-The challenges met:
+The Dashboard:
+https://lookerstudio.google.com/reporting/4b58a545-2be0-41d1-9b97-0b51c1b1314c
 
 The room for improvements:
-CICD pipeline
+  - CICD pipelin
