@@ -82,6 +82,8 @@ core
 looker
 review tests in dbt
 readme github
+add terraform
+try to merge master with main
 
 142	145
 2	15
